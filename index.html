@@ -432,6 +432,13 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <!-- іконка закриття модального вікна -->
+        <button class="modal-icon-close" data-modal-close>
+          <svg aria-label="іконка закриття вікна" width="18" height="18">
+            <use href="./images/sprite.svg#close"></use>
+          </svg>
+        </button>
+
         <form class="modal-form">
           <p>Залиште свої дані, ми вам передзвонимо</p>
 
@@ -506,16 +513,8 @@
 
           <button type="submit" class="modal-form-submit-btn">Відправити</button>
         </form>
-
-        <!-- іконка закриття модального вікна -->
-        <button class="modal-icon-close" data-modal-close>
-          <svg aria-label="іконка закриття вікна" width="18" height="18">
-            <use href="./images/sprite.svg#close"></use>
-          </svg>
-        </button>
       </div>
     </div>
-
     <script src="./js/modal.js"></script>
   </body>
 </html>
